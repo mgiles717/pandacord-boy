@@ -29,7 +29,6 @@ async def on_message(message):
     if "http" in message.content or message.embeds or message.attachments:
         return
     
-    print(message.author.id)
     """
     Core prediction logic
     """ 
